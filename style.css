@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+/* Header Top Area */
+.header-area{
+    width: 1170px;
+    background: #fab702;
+    margin: auto;
+    margin-top: 30px;
+}
+.header-top {
+    margin: 16px 45px 10px;
+}
+
+.top-info-left h4 {
+    font-size: 14px;
+    padding-left: 10px;
+    margin: 0;
+    font-weight: 600;
+}
+
+.top-info-left {
+    display: flex;
+}
+
+.top-info-right {
+    display: flex;
+    float: right;
+}
+
+.top-info-right li {
+    list-style: none;
+    margin-left: 65px;
+    font-weight: 600;
+}
+
+.top-info-right li i {
+    margin-right: 10px;
+}
+.clock li {
+    position: relative;
+}
+
+.clock li:before {
+    position: absolute;
+    content: '';
+    width: 1px;
+    height: 30px;
+    background: #505050;
+    left: -35px;
+    top: -7px;
+}
+/* Menu Area */
+.menu-area {
+    background: #fff;
+    height: 75px;
+    box-shadow: 5px 6px 0 rgba(0, 0, 0, .75);
+}
+.logo-area {
+    margin-left: 45px;
+}
+.main-menu {
+    text-align: right;
+}
+.main-menu nav ul {
+    margin: 0;
+    display: inline-block;
+}
+.main-menu nav ul li {
+    list-style: none;
+    float: left;
+    font-size: 15px;
+    font-weight: 600;
+    padding-left: 45px;
+}
+.main-menu nav ul li a {
+    color: #303030;
+    text-decoration: none;
+    transition: all .3s;
+}
+
+.main-menu nav ul li:hover a {
+    color: #fab702
+}
+
+.main-menu nav ul li.menu-border {
+    position: relative;
+}
+
+.main-menu nav ul li.menu-border:before {
+    position: absolute;
+    content: '';
+    width: 4px;
+    height: 1px;
+    background: #000;
+    left: 20px;
+    top: 50%;
+}
+/* Menu Right Area */
+.menu-right {
+    display: flex;
+    float: right;
+    margin-right: 45px;
+    font-size: 15px;
+}
+
+.menu-right .search-area {
+    padding-left: 55px;
+    position: relative;
+}
+
+.menu-right .search-area:before {
+    position: absolute;
+    content: '';
+    width: 1px;
+    height: 30px;
+    background: #dfdede;
+    left: 25px;
+}
+
+
+
+
+
+
+
+
+
+
