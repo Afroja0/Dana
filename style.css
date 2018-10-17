@@ -458,7 +458,43 @@ header {
     background: #212121;
     margin-top: 30px;
 }
+/* Testimonial Area */
+.single-testimonial-content p {
+    font-size: 17px;
+    line-height: 28px;
+    color: #1d1d27;
+    width: 94%;
+}
 
+.single-testimonial-content h4 {
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 0;
+    color: #1d1d27;
+    margin-bottom: 15px;
+}
 
+.brand-img {
+    margin: 20px;
+}
 
+.testimonials-active .owl-dots {
+    position: absolute;
+}
+
+.testimonials-active .owl-dots .owl-dot {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin-right: 5px;
+    background: #1d1d27 !important;
+    border-radius: 50%;
+}
+
+.testimonials-active .owl-dots .owl-dot.active {
+    background: transparent !important;
+    border: 1px solid #1d1d27;
+    width: 12px;
+    height: 12px;
+}
 

@@ -51,7 +51,40 @@ $(document).ready(function () {
         $grid.isotope({ filter: filterValue });
     });
         
-    
+    //Testimonials Area
+    $('.testimonials-active').owlCarousel({
+        loop: true,
+        nav: false,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 1
+            },
+            1000: {
+                items: 1
+            }
+        }
+    })
+
+    //Brand Area
+    $('.brand-active').owlCarousel({
+        loop: true,
+        nav: false,
+        dots: false,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 1
+            },
+            1000: {
+                items: 3
+            }
+        }
+    })
     
 
 
