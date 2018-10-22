@@ -106,7 +106,25 @@ $(document).ready(function () {
         }
     })
     
-
+    // Progressbar
+    $('.progressbar1').LineProgressbar({
+        percentage: 60,
+        fillBackgroundColor: '#fab702',
+        backgroundColor: '#e6e6e6',
+        radius: '5px',
+    });
+    $('.progressbar2').LineProgressbar({
+        percentage: 70,
+        fillBackgroundColor: '#fab702',
+        backgroundColor: '#e6e6e6',
+        radius: '5px',
+    });
+    $('.progressbar3').LineProgressbar({
+        percentage: 80,
+        fillBackgroundColor: '#fab702',
+        backgroundColor: '#e6e6e6',
+        radius: '5px',
+    });
 
 
 
