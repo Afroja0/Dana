@@ -720,14 +720,25 @@ header {
 /* Skill Area End */
 
 /* Video Area Start */
+.video-area{
+    background-image: url('assets/images/video-bg.png') !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;    
+}
 .video-init {
     padding-bottom: 112px;
 }
 .video-wrapper {
-    margin-top: 140px;
     float: right;
     position: relative;
-    margin-right: 20px;
+    width: 340px;
+    box-shadow: 5px 0 35px #000000;
+    margin: 95px 40px 0 0;
+}
+.video-wrapper img{
+    width: 100%;
+    border-radius: 5px;
 }
 .video-wrapper a {
     position: absolute;
@@ -878,7 +889,6 @@ header {
     max-width: 88%;
 }
 .features-image img {
-    width: 100%;
     padding-top: 45px;
 }
 /* Features Area End */

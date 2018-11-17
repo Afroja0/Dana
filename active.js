@@ -1,5 +1,12 @@
 $(document).ready(function () {
 
+    // Main Menu
+    $('#mobile-menu').meanmenu({
+        meanScreenWidth: "991",
+        meanMenuContainer: '.responsive-mobile',
+    });
+
+
     //Slider Area
     $('.slider-active').owlCarousel({
         loop: true,
